@@ -1,0 +1,32 @@
+/* layout and divs */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.everything {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header,
+.footer {
+    background-color: hsl(253, 78%, 19%);
+    flex-shrink: 0;
+}
+
+.header {
+    height: 150px;
+}
+
+.content {
+    flex-grow: 1;
+   
+}
+
+.footer {
+    height: 60px;
+    margin-top: auto;
+}
