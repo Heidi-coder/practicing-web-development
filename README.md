@@ -34,3 +34,7 @@ Iterations I want to try out
         -Index w/examples of html features, css features, etc.
         -Explain each copyright license
         -Something I'm learning
+    -Code organization
+        -CSS
+            -With comments creating sections
+            -With and without border-box
