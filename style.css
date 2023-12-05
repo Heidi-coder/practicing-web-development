@@ -1,4 +1,4 @@
-/* layout and divs */
+/* layout, general formatting, and divs */
 
 body {
     margin: 0;
@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 .header,
@@ -46,7 +47,6 @@ body {
 
 .header .text {
     color: aliceblue;
-    font-family: Verdana, Tahoma, sans-serif;
 }
 
 /* Logo */
@@ -94,4 +94,28 @@ body {
     padding: 0;
     list-style-type: none;
     gap: 8px;
+}
+
+
+
+
+
+
+
+
+/* Section 1 */
+
+.section-1 {
+    background-image: url(./images/flower-background.jpg);
+    background-size: 100vw auto;
+    height: 600px;
+    background-position: 50% 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1-heading {
+    color: aliceblue;
+    font-size: 100px;
 }

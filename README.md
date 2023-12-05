@@ -24,6 +24,7 @@ Iterations I want to try out
         -Contact me pages
         -Menus
     -Color Scheme
+    -Text style and size
     -Features
         -Page settings
         -Website settings
