@@ -28,18 +28,28 @@ body {
     margin-top: auto;
 }
 
+
+
+
+
+
+
 /* header formatting */
+
 
 .header {
     display: flex;
     align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0px 20px;
+    gap: 20px;
 }
 
 .header .text {
     color: aliceblue;
+    font-family: Verdana, Tahoma, sans-serif;
 }
+
+/* Logo */
 
 .logo {
     display: flex;
@@ -47,19 +57,35 @@ body {
 }
 
 .mini-heading {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .main-heading {
-    font-size: 40px;
+    font-size: 70px;
 }
+
+/* List */
 
 .find-page-text {
     margin-left: auto;
+    font-size: 30px;
 }
 
 .header-button {
     background-color: hsl(253, 78%, 19%);
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 20px;
+}
+
+.button-container {
+    border-color: aliceblue;
+    border-width: 1px;
+    padding: 15px 45px;
+    border-style: solid;
+    border-radius: 20px;
 }
 
 .header ul {
@@ -67,4 +93,5 @@ body {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    gap: 8px;
 }
