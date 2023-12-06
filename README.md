@@ -39,3 +39,18 @@ Iterations I want to try out
         -CSS
             -With comments creating sections
             -With and without border-box
+
+
+
+
+
+
+
+
+
+
+Image credits
+-flower-background.jpg taken by myself
+-business.jpg @wax115 at Freeimages.com
+-colors.jpg @hovard at Freeimages.com
+-typing.jpg @acerin at Freeimages.com

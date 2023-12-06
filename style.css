@@ -147,6 +147,13 @@ body {
     background-color: aliceblue;
 }
 
+.theme-section img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
 
 
 
@@ -158,6 +165,13 @@ body {
 .iteration-section {
     display: flex;
     height: 400px;
+}
+
+.iteration-section img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 25px;
 }
 
 
@@ -172,6 +186,13 @@ body {
     display: flex;
     height: 400px;
     background-color: aliceblue;
+}
+
+.content-section img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 25px;
 }
 
 
