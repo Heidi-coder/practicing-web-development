@@ -82,7 +82,7 @@ body {
 
 .button-container {
     border-color: aliceblue;
-    border-width: 1px;
+    border-width: 0px;
     padding: 15px 45px;
     border-style: solid;
     border-radius: 20px;
@@ -118,4 +118,23 @@ body {
 .section-1-heading {
     color: aliceblue;
     font-size: 100px;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text {
+    color: aliceblue;
+    font-size: 15px;
 }
