@@ -126,6 +126,102 @@ body {
 
 
 
+/* About section */
+
+.about-section {
+    display: flex;
+    height: 400px;
+}
+
+
+
+
+
+
+
+/* Theme section */
+
+.theme-section {
+    display: flex;
+    height: 400px;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+/* Iteration section */
+
+.iteration-section {
+    display: flex;
+    height: 400px;
+}
+
+
+
+
+
+
+
+/* Content section */
+
+.content-section {
+    display: flex;
+    height: 400px;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+/* Advanced section */
+
+.advanced-section {
+    display: flex;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+/* Contact section */
+
+.contact-section {
+    display: flex;
+    height: 400px;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+/* Nav and settings section */
+
+.nav-and-settings-section {
+    display: flex;
+    height: 400px;
+    background-color: hsl(253, 78%, 19%);
+}
+
+
+
+
+
+
 /* Footer */
 
 .footer {
