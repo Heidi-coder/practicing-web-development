@@ -19,6 +19,18 @@ body {
     flex-shrink: 0;
 }
 
+.about-section,
+.theme-section,
+.iteration-section,
+.content-section,
+.advanced-section,
+.contact-section,
+.nav-and-settings-section {
+    box-sizing: border-box;
+    padding: 30px 300px;
+    min-height: 400px;
+}
+
 .content {
     flex-grow: 1;
    
@@ -130,7 +142,19 @@ body {
 
 .about-section {
     display: flex;
-    height: 400px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.about-section .heading {
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.about-section p {
+    font-size: 20px;
 }
 
 
@@ -143,7 +167,6 @@ body {
 
 .theme-section {
     display: flex;
-    height: 400px;
     background-color: aliceblue;
 }
 
@@ -164,7 +187,6 @@ body {
 
 .iteration-section {
     display: flex;
-    height: 400px;
 }
 
 .iteration-section img {
@@ -184,7 +206,6 @@ body {
 
 .content-section {
     display: flex;
-    height: 400px;
     background-color: aliceblue;
 }
 
@@ -205,7 +226,6 @@ body {
 
 .advanced-section {
     display: flex;
-    height: 400px;
 }
 
 
@@ -219,7 +239,6 @@ body {
 
 .contact-section {
     display: flex;
-    height: 400px;
     background-color: aliceblue;
 }
 
@@ -234,7 +253,6 @@ body {
 
 .nav-and-settings-section {
     display: flex;
-    height: 400px;
     background-color: hsl(253, 78%, 19%);
 }
 
