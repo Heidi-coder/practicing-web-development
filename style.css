@@ -163,41 +163,67 @@ body {
 
 
 
+/* Theme, iteration, and content sections */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 600px;
+}
+
+.theme-section,
+.iteration-section,
+.content-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.theme-section img,
+.iteration-section img,
+.content-section img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.theme-section .heading,
+.iteration-section .heading,
+.content-section .heading {
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.theme-section p,
+.iteration-section p,
+.content-section p {
+    font-size: 20px;
+}
+
+.theme-section button,
+.iteration-section button,
+.content-section button {
+    color: aliceblue;
+    background-color: hsl(253, 78%, 19%);
+    border-width: 0px;
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
 /* Theme section */
 
 .theme-section {
-    display: flex;
     background-color: aliceblue;
 }
 
-.theme-section img {
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    border-radius: 25px;
-}
-
-
-
-
-
-
 
 /* Iteration section */
-
-.iteration-section {
-    display: flex;
-}
-
-.iteration-section img {
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    border-radius: 25px;
-}
-
-
-
 
 
 
@@ -205,16 +231,9 @@ body {
 /* Content section */
 
 .content-section {
-    display: flex;
     background-color: aliceblue;
 }
 
-.content-section img {
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    border-radius: 25px;
-}
 
 
 
