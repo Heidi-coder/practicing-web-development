@@ -24,7 +24,7 @@ body {
 .iteration-section,
 .content-section,
 .advanced-section,
-.contact-section,
+.feedback-section,
 .nav-and-settings-section {
     box-sizing: border-box;
     padding: 30px 300px;
@@ -292,11 +292,58 @@ body {
 
 
 
-/* Contact section */
+/* Feedback section */
 
-.contact-section {
+.feedback-section {
     display: flex;
     background-color: aliceblue;
+    align-items: center;
+    gap: 40px;
+}
+
+.feedback-section .heading {
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+}
+
+.feedback-section p {
+    font-size: 20px;
+}
+
+.feedback-section button {
+    color: aliceblue;
+    background-color: hsl(253, 78%, 19%);
+    border-width: 0px;
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.feedback-section .feedback {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.feedback div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.feedback-section textarea {
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.feedback-section input {
+    border-radius: 25px;
+    font-size: 20px;
 }
 
 
