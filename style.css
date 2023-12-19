@@ -24,8 +24,7 @@ body {
 .iteration-section,
 .content-section,
 .advanced-section,
-.feedback-section,
-.nav-and-settings-section {
+.feedback-section {
     box-sizing: border-box;
     padding: 30px 300px;
     min-height: 400px;
@@ -66,21 +65,25 @@ body {
 .logo {
     display: flex;
     gap: 10px;
+    align-items: flex-start;
 }
 
 .mini-heading {
-    font-size: 30px;
+    font-size: 20px;
+    margin: 0;
 }
 
 .main-heading {
-    font-size: 70px;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
 }
 
 /* List */
 
 .find-page-text {
     margin-left: auto;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .header-button {
@@ -88,8 +91,9 @@ body {
     border-style: solid;
     border-color: aliceblue;
     border-radius: 5px;
+    border-width: 1px;
     padding: 8px 12px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .button-container {
@@ -359,7 +363,25 @@ body {
 
 .nav-and-settings-section {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: hsl(253, 78%, 19%);
+    box-sizing: border-box;
+    padding: 30px 300px;
+    min-height: 300px;
+}
+
+.nav-and-settings-section .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1000px;
+    row-gap: 50px;
+}
+
+.nav-and-settings-section a {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
 }
 
 
