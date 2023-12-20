@@ -21,6 +21,7 @@ Iterations I want to try out
     -Layout
         -Homepages
         -Content pages
+            -With or without a line beneath the header showing where in the site you are and having links to where you came from
         -Contact me pages
         -Menus
     -Color Scheme
@@ -30,15 +31,23 @@ Iterations I want to try out
         -Website settings
         -Diary
         -Pop-ups
+        -Survey
+        -Calendar
+        -Feedback button that is only clickable and is a different color when there is text in the input field
+        -A page to add times together where you can add more lines if you need to and they still calculate correctly
+        -Drop-down menus
     -Content
         -My progress journey
         -Index w/examples of html features, css features, etc.
         -Explain each copyright license
         -Something I'm learning
+        -Principles of web design
     -Code organization
-        -CSS
-            -With comments creating sections
-            -With and without border-box
+            -CSS
+                -With comments creating sections and explanations
+                -With and without border-box
+            -JavaScript
+                -Have a section commented out at the bottom where it lists each variable with maybe a brief description and/or where it appears in the code
 
 
 
