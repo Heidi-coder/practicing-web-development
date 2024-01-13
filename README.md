@@ -49,6 +49,35 @@ Iterations I want to try out
             -JavaScript
                 -Have a section commented out at the bottom where it lists each variable with maybe a brief description and/or where it appears in the code
 
+general page content
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Themes</title>
+</head>
+<body>
+  <div id="header">
+    <h1 id="pageHeading">Themes</h1>
+    <a href="./../index.html">Home</a>
+  </div>
+  <div id="leftSidebar">
+    <ul>
+      <li><a>About</a></li>
+      <li><a>Iterations</a></li>
+      <li><a>Content</a></li>
+      <li><a>Combinations</a></li>
+      <li><a>Favorites</a></li>
+    </ul>
+  </div>
+  <ul>
+    <li><a>Business</a></li>
+    <li><a>Comfy</a></li>
+    <li><a>Game</a></li>
+  </ul>
+</body>
+</html> -->
 
 
 
